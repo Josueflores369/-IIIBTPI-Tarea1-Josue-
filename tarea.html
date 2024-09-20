@@ -1,33 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Naturaleza</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/tarea.css">
 </head>
 <body>
+    <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
+        La naturaleza
+      </button>
+      
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="sidebarLabel">Como es la naturaleza</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>La naturaleza pueden ser: </p>
+          <button class="btn btn-primary" color="green">Bosques</button>
+          <hr>
+          <button class="btn btn-primary">Montañas</button>
+          <hr>
+          <button class="btn btn-primary">Ocenaos</button>
+          <hr>
+          <button class="btn btn-primary">Selvas</button>
+          <hr>
+          <button class="btn btn-primary">Desiertos</button>
+          <hr>
+          <button class="btn btn-primary">Rios</button>
+          <hr>
+          <button class="btn btn-primary">Cataratas</button>
+        </div>
+      </div>
+    <h1>Explora la Belleza de la Naturaleza</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="css/bosque.jpg" alt="Bosque">
+                <p class="info-text">Los bosques son esenciales para la vida en la Tierra. Proporcionan oxígeno, regulan el clima y son el hogar de diversas especies animales y vegetales.</p>
+            </div>
+            <div class="col">
+                <img src="css/MOnta;a.jfif" alt="Montaña">
+                <p class="info-text">Las montañas ofrecen paisajes espectaculares y son fuentes de agua dulce para millones de personas en todo el mundo.</p>
+            </div>
+            <div class="col">
+                <img src="css/oceano.jpg" alt="Océano">
+                <p class="info-text">Los océanos cubren más del 70% de la superficie terrestre y son vitales para la regulación del clima global, además de ser una fuente de biodiversidad marina.</p>
+            </div>
+        </div>
+        <hr class="hr-custom">
+        <div class="row">
+            <div class="col">
+                <img src="css/Desierto.jfif" alt="Desierto">
+                <p class="info-text">Aunque los desiertos pueden parecer inhóspitos, albergan especies únicas adaptadas a las condiciones extremas.</p>
+            </div>
+            <div class="col">
+                <img src="css/selva.jfif" alt="Selva">
+                <p class="info-text">Las selvas tropicales son los ecosistemas más ricos en biodiversidad del planeta, y son clave para el equilibrio climático global.</p>
+            </div>
+            <div class="col">
+                <img src="css/cata.jfif" alt="Cataratas">
+                <p class="info-text">Las cataratas son espectáculos naturales impresionantes y son fuentes importantes de energía hidroeléctrica en muchos países.</p>
+            </div>
+        </div>
+        <hr class="hr-custom">
+        <div class="row">
+            <div class="col">
+                <img src="css/aurora.jpg" alt="Aurora Boreal">
+                <p class="info-text">La aurora boreal es uno de los fenómenos más impresionantes que ocurren en el cielo nocturno, causado por la interacción entre partículas solares y el campo magnético terrestre.</p>
+            </div>
+            <div class="col">
+                <img src="css/rios_7_orig.jpg" alt="Río">
+                <p class="info-text">Los ríos son fuentes vitales de agua dulce, y sus ecosistemas sostienen una gran variedad de vida animal y vegetal.</p>
+            </div>
+        </div>
+        <hr class="hr-custom">
+    </div>
 
-<!-- Botón para activar la barra lateral -->
-<button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
-  Inicio
-</button>
-
-<!-- Barra lateral -->
-<div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="sidebarLabel">Tarea del parcial</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
-  </div>
-  <div class="offcanvas-body">
-    <p>Ejercicio con boostrap</p>
-    <!-- Botón dentro de la barra lateral -->
-    <button class="btn btn-primary">El Final</button>
-  </div>
-</div>
-
-<!-- Bootstrap JS (para que funcione la barra lateral) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
